@@ -209,7 +209,7 @@ class ECG:
 		for files in natsorted(os.listdir(location)):
 			if files.endswith(".csv"):
 				if files!='Scaled_1DLead_1.csv':
-					df=pd.read_csv('/{}'.format(files))
+					df=pd.read_csv('{}'.format(files))
 					test_final=pd.concat([test_final,df],axis=1,ignore_index=True)
 
 		return test_final
