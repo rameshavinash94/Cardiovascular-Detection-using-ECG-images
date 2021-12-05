@@ -1,6 +1,6 @@
+scikit-learn
 scikit-image
 joblib
-scikit-learn
 pandas
 matplotlib
 natsort
