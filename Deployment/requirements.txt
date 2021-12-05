@@ -1,0 +1,7 @@
+scikit-image
+joblib
+scikit-learn
+pandas
+matplotlib
+natsort
+streamlit
