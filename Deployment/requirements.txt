@@ -1,5 +1,6 @@
 scikit-learn
 scikit-image
+unzip
 joblib
 pandas
 matplotlib
