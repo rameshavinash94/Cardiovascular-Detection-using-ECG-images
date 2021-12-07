@@ -213,8 +213,18 @@ class ECG:
 					test_final=pd.concat([test_final,df],axis=1,ignore_index=True)
 
 		return test_final
+		
+	def DimensionalReduciton(self,test_final):
+		"""
+		This function reduces the dimensinality of the 1D signal using PCA
+		returns the final dataframe
+		"""
+		#first load the trained pca
+		pca_loaded_model = joblib.load('')
+		result = pca_loaded_model.predict(test_final)
+		final=pd.DataFrame(result)
+		return final_df
 
-	
 	def ModelLoad_predict(self,final_df):
 		"""
 		This Function Loads the pretrained model and perfrom ECG classification
