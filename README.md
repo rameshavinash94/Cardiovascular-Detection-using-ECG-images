@@ -1,1 +1,1 @@
-# CMPE255_PROJECT
+# Detection of Cardiovascular Diseases using ECG images
