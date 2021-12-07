@@ -10,10 +10,11 @@ If we digitize such paper ECG records, we can perform automated diagnosis and an
 **Datasets:**
 
 ECG images: https://data.mendeley.com/datasets/gwbz3fsgp8/2 
+
 The above dataset contains ECG image signals from both healthy individuals and persons with cardiovascular problems.
 
-**Approach:
-**
+**Approach:**
+
 The user uploads an ECG image to our web app. Then, we use techniques like rgb2gray conversion, gaussian filtering, resizing, and thresholding to extract only the signals that do not have grid lines. The required waves (P, QRS, T) are then extracted using contour techniques and converted to a 1D signal. The normalized 1D signal is then fed into our pre-trained ML model, which is then analyzed. When the model has completed the analysis, it returns the results to the user based on the findings.
 
 Here, we have used 4 categories for image classification for our ECG images.
