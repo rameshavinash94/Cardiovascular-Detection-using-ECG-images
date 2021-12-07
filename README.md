@@ -1,4 +1,4 @@
-# Detection of Cardiovascular Diseases using ECG images
+# Detection of Cardiovascular Diseases from ECG images
 
 
 **Abstract:**
@@ -26,3 +26,13 @@ History of Myocardial infarction_
 One benefit of our app is that the user can view the entire workflow in the UI and receive real-time feedback.
 
 The tricky path here is feature extraction from images; if done correctly and optimally, the accuracy of our model can be increased.
+
+
+**Architecture Diagram:**
+
+
+
+
+**Deployment Diagram**
+
+
