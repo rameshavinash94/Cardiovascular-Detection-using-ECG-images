@@ -55,7 +55,7 @@ class ECG:
 		#All Leads in a list
 		Leads=[Lead_1,Lead_2,Lead_3,Lead_4,Lead_5,Lead_6,Lead_7,Lead_8,Lead_9,Lead_10,Lead_11,Lead_12,Lead_13]
 		fig , ax = plt.subplots(4,3)
-		fig.set_size_inches(10, 10)
+		#fig.set_size_inches(10, 10)
 		x_counter=0
 		y_counter=0
 
@@ -77,7 +77,7 @@ class ECG:
 		#save the image
 		fig.savefig('Leads_1-12_figure.png')
 		fig1 , ax1 = plt.subplots()
-		fig1.set_size_inches(10, 10)
+		#fig1.set_size_inches(10, 10)
 		ax1.imshow(Lead_13)
 		ax1.set_title("Leads 13")
 		ax1.axis('off')
@@ -90,7 +90,7 @@ class ECG:
 		This Function Performs preprocessing to on the extracted leads.
 		"""
 		fig2 , ax2 = plt.subplots(4,3)
-		fig2.set_size_inches(10, 10)
+		#fig2.set_size_inches(10, 10)
 		#setting counter for plotting based on value
 		x_counter=0
 		y_counter=0
@@ -123,7 +123,7 @@ class ECG:
 
 		#plotting lead 13
 		fig3 , ax3 = plt.subplots()
-		fig3.set_size_inches(10, 10)
+		#fig3.set_size_inches(10, 10)
 		#converting to gray scale
 		grayscale = color.rgb2gray(Leads[-1])
 		#smoothing image
@@ -145,7 +145,7 @@ class ECG:
 		This Function Performs Signal Extraction using various steps,techniques: conver to grayscale, apply gaussian filter, thresholding, perform contouring to extract signal image and then save the image as 1D signal
 		"""
 		fig4 , ax4 = plt.subplots(4,3)
-		fig4.set_size_inches(10, 10)
+		#fig4.set_size_inches(10, 10)
 		x_counter=0
 		y_counter=0
 		for x,y in enumerate(Leads[:len(Leads)-1]):
