@@ -99,7 +99,7 @@ class ECG:
 			#converting to gray scale
 			grayscale = color.rgb2gray(y)
 			#smoothing image
-			blurred_image = gaussian(grayscale, sigma=0.7)
+			blurred_image = gaussian(grayscale, sigma=1)
 			#thresholding to distinguish foreground and background
 			#using otsu thresholding for getting threshold value
 			global_thresh = threshold_otsu(blurred_image)
@@ -127,7 +127,7 @@ class ECG:
 		#converting to gray scale
 		grayscale = color.rgb2gray(Leads[-1])
 		#smoothing image
-		blurred_image = gaussian(grayscale, sigma=0.7)
+		blurred_image = gaussian(grayscale, sigma=1)
 		#thresholding to distinguish foreground and background
 		#using otsu thresholding for getting threshold value
 		global_thresh = threshold_otsu(blurred_image)
@@ -152,7 +152,7 @@ class ECG:
 			#converting to gray scale
 			grayscale = color.rgb2gray(y)
 			#smoothing image
-			blurred_image = gaussian(grayscale, sigma=0.7)
+			blurred_image = gaussian(grayscale, sigma=1)
 			#thresholding to distinguish foreground and background
 			#using otsu thresholding for getting threshold value
 			global_thresh = threshold_otsu(blurred_image)
