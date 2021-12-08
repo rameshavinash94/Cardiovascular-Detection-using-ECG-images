@@ -222,7 +222,7 @@ class ECG:
 		#first load the trained pca
 		pca_loaded_model = joblib.load('PCA_ECG.pkl')
 		result = pca_loaded_model.transform(test_final)
-		final=pd.DataFrame(result)
+		final_df = pd.DataFrame(result)
 		return final_df
 
 	def ModelLoad_predict(self,final_df):
