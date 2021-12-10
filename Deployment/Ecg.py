@@ -8,12 +8,16 @@ from skimage.metrics import structural_similarity
 from skimage import measure
 from sklearn.decomposition import PCA
 from sklearn.neighbors import KNeighborsClassifier
+import xgboost
 import joblib
 from sklearn.preprocessing import MinMaxScaler
 import pandas as pd
 import numpy as np
 import os
 from natsort import natsorted
+from sklearn import linear_model, tree, ensemble
+from sklearn.naive_bayes import GaussianNB
+from sklearn.linear_model import LogisticRegression
 
 class ECG:
 	def  getImage(self,image):
