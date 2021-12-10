@@ -230,7 +230,7 @@ class ECG:
 		This Function Loads the pretrained model and perfrom ECG classification
 		return the classification Type.
 		"""
-		loaded_model = joblib.load('model_test (4).pkl')
+		loaded_model = joblib.load('model_test (5).pkl')
 		result = loaded_model.predict(final_df)
 		if result[0] == 1:
 			return "You ECG corresponds to Myocardial Infarction"
