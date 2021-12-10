@@ -8,7 +8,6 @@ from skimage.metrics import structural_similarity
 from skimage import measure
 from sklearn.decomposition import PCA
 from sklearn.neighbors import KNeighborsClassifier
-import xgboost
 import joblib
 from sklearn.preprocessing import MinMaxScaler
 import pandas as pd
@@ -234,7 +233,7 @@ class ECG:
 		This Function Loads the pretrained model and perfrom ECG classification
 		return the classification Type.
 		"""
-		loaded_model = joblib.load('Heart_Disease_Prediction_using_ECG (3).pkl')
+		loaded_model = joblib.load('Heart_Disease_Prediction_using_ECG (4).pkl')
 		result = loaded_model.predict(final_df)
 		if result[0] == 1:
 			return "You ECG corresponds to Myocardial Infarction"
