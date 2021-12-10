@@ -6,4 +6,3 @@ pandas
 matplotlib
 natsort
 streamlit
-xgboost
