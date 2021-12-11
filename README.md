@@ -19,7 +19,7 @@ https://www.canva.com/design/DAEx1Se7iPs/Xy1tWQVcBt3Oww8hBHEvRg/view?utm_content
 
 
 **PROJECT PRESENTATION VIDEO:**
-[!["Project Demo"](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=qOIyUS6tAwE)
+https://user-images.githubusercontent.com/89234077/145665654-8fc3bc05-dd6b-42b4-81fb-ba5b5a6ad692.mp4
 
 
 **DEPLOYMENT LINK:**
