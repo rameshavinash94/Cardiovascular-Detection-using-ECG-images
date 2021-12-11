@@ -21,7 +21,10 @@ https://www.canva.com/design/DAEx1Se7iPs/Xy1tWQVcBt3Oww8hBHEvRg/view?utm_content
 
 We have deployed our applicaiton in GCP.
 
-https://cmpe255-project-q4uake3apq-uc.a.run.app 
+https://cmpe255-project-q4uake3apq-uc.a.run.app
+
+Download any image from the below folder path and try uploading it to the above url to get real-time insights.
+https://github.com/rameshavinash94/Cardiovascular-Detection-using-ECG-images/tree/main/ECG_IMAGES_DATASET
 
 **Approach:**
 
