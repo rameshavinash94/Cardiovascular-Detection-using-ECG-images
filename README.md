@@ -19,6 +19,7 @@ https://www.canva.com/design/DAEx1Se7iPs/Xy1tWQVcBt3Oww8hBHEvRg/view?utm_content
 
 
 **PROJECT PRESENTATION VIDEO:**
+![](https://github.com/rameshavinash94/Cardiovascular-Detection-using-ECG-images/blob/main/video/CMPE-255-Demo.mp4)
 
 
 **DEPLOYMENT LINK:**
