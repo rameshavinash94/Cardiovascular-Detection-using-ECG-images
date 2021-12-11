@@ -5,7 +5,7 @@
 
 One of the most important tools for detecting cardiovascular problems is the electrocardiogram (ECG). Until recently, the vast majority of ECG records were kept on paper. Manually examining ECG paper records can be a difficult and time-consuming process. 
 
-If we digitize such paper ECG records, we can perform automated diagnosis and analysis. The goal of this project is to use machine learning to convert ECG paper records into a 1-D signal and extract P, QRS, and T waves that exist in ECG signals to demonstrate the electrical activity of the heart using various techniques. Post feature extraction it can aid in the diagnosis of most cardiac diseases.
+If we digitize such paper ECG records, we can perform automated diagnosis and analysis. The goal of this project is to use machine learning to convert ECG imagess into a 1-D signal and extract P, QRS, and T waves that exist in ECG signals to demonstrate the electrical activity of the heart using various techniques. Post feature extraction it can aid in the diagnosis of most cardiac diseases.
 
 **Datasets:**
 
