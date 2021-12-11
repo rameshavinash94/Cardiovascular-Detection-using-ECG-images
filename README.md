@@ -43,10 +43,10 @@ The tricky path here is feature extraction from images; if done correctly and op
 
 
 **Architecture Diagram:**
-
-
-
+![](https://raw.githubusercontent.com/rameshavinash94/Cardiovascular-Detection-using-ECG-images/main/img/Architecture_Diagram.png)
 
 **Deployment Diagram**
+![](https://raw.githubusercontent.com/rameshavinash94/Cardiovascular-Detection-using-ECG-images/main/img/Architecture_Diagram.png)
 
-
+**DEMO GIF**
+![](https://raw.githubusercontent.com/rameshavinash94/Cardiovascular-Detection-using-ECG-images/main/img/demo.gif)
