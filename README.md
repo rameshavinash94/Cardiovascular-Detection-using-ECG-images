@@ -17,9 +17,6 @@ The above dataset contains ECG image signals from both healthy individuals and p
 
 https://www.canva.com/design/DAEx1Se7iPs/Xy1tWQVcBt3Oww8hBHEvRg/view?utm_content=DAEx1Se7iPs&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
 
-
-**PROJECT PRESENTATION VIDEO:**
-
 **DEPLOYMENT LINK:**
 
 We have deployed our applicaiton in GCP.
@@ -53,6 +50,8 @@ The tricky path here is feature extraction from images; if done correctly and op
 
 ![](https://raw.githubusercontent.com/rameshavinash94/Cardiovascular-Detection-using-ECG-images/main/img/demo.gif)
 
+
+**PROJECT PRESENTATION VIDEO:**
 
 https://user-images.githubusercontent.com/89234077/145665654-8fc3bc05-dd6b-42b4-81fb-ba5b5a6ad692.mp4
 
