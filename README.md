@@ -18,6 +18,9 @@ The above dataset contains ECG image signals from both healthy individuals and p
 https://www.canva.com/design/DAEx1Se7iPs/Xy1tWQVcBt3Oww8hBHEvRg/view?utm_content=DAEx1Se7iPs&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
 
 
+**PROJECT PRESENTATION:**
+
+
 **DEPLOYMENT LINK:**
 
 We have deployed our applicaiton in GCP.
