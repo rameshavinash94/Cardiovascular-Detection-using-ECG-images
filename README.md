@@ -54,9 +54,3 @@ The tricky path here is feature extraction from images; if done correctly and op
 ![](https://raw.githubusercontent.com/rameshavinash94/Cardiovascular-Detection-using-ECG-images/main/img/demo.gif)
 
 
-**PROJECT PRESENTATION VIDEO:**
-
-https://user-images.githubusercontent.com/89234077/145665654-8fc3bc05-dd6b-42b4-81fb-ba5b5a6ad692.mp4
-
-
-
